@@ -2,7 +2,7 @@
 @use 'base/mixins' as m;
 
 .estadisticas {
-  h2{
-    @include m.headingBorder(v.$secundario, v.$primario)
+  h2 {
+    @include m.headingBorder(v.$secundario, v.$primario);
   }
 }
